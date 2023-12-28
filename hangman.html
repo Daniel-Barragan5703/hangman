@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+
+<body>
+    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">THE HANGMAN GAME</h1>
+    <br>
+    <div class="game">
+        <img id="hangman0" src="hangman1.png">
+        <img id="hangman1" src="hangman.png">
+        <img id="hangman2" src="hangman2.png">
+        <img id="hangman3" src="hangman3.png">
+        <img id="hangman4" src="hangman5.png">
+        <img id="hangman5" src="hangman6.png">
+        <img id="hangman6" src="hangman7.png">
+
+        <span class="interface">
+            <input type="text" id="input1" minlength="1" maxlength="1" value="" />
+            <br>
+
+            <div class="row">
+                <button id="reset">New Game</button>
+                <button id="myButton">Enter
+
+                </button>
+            </div>
+        </span>
+    </div>
+    <div class="letterboxes">
+        <div class="letter" id="letter1"></div>
+        <div class="letter" id="letter2"></div>
+        <div class="letter" id="letter3"></div>
+        <div class="letter" id="letter4"></div>
+        <div class="letter" id="letter5"></div>
+        <div class="letter" id="letter6"></div>
+        <div class="letter" id="letter7"></div>
+        <div class="letter" id="letter8"></div>
+    </div>
+    <p id="picked"> </p>
+</body>
+<script src="hangman.js"></script>
+
+</html>

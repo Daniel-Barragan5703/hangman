@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+img {
+    height: 300px;
+    width:200px;
+    margin-right: 100px;
+    display: none;
+}
+#hangman0 {
+    display: inline;
+}
+button {
+    color: #ffffff;
+    background-color:lightblue;
+    border: solid black;
+    font-size: x-large;
+    padding: 10px;
+}
+input {
+    width: 80px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.letterboxes {
+    display: flex;
+}
+.letter {
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: #ffffff;
+    margin: 5px;
+    display: flex;
+    border: solid lightblue;
+    font-size: 500%;
+    justify-content: center;
+}
+.interface {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+    flex-direction: column;
+}
+.game {
+    display: flex;
+    margin-right: 20px;
+}
+.row {
+    display: inline-block;
+}
+#reset {
+    margin: 10px;
+}
+#input1 {
+    border: solid black;
+    margin: 20px;
+}
+#myButton {
+    height: 50px;
+    margin: 10px;
+}
+#picked {
+    font-size: xx-large;
+}
